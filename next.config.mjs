@@ -128,3 +128,6 @@ const nextConfig = {
 }
 
 export default pwaConfig(nextConfig); 
+
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();

@@ -150,10 +150,9 @@ const HeroSection = () => {
           <div className="w-full max-w-none px-2">
             <video
               autoPlay
-              muted
               loop
               playsInline
-                              className="w-full rounded-t-lg shadow-2xl"
+              className="w-full rounded-t-lg shadow-2xl"
             >
               <source src="https://cdn.smarteg.app/video.mp4" type="video/mp4" />
             </video>
