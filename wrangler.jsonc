@@ -16,5 +16,9 @@
 			"bucket_name": "smarteg-web-inc-cache",
 			"binding": "NEXT_INC_CACHE_R2_BUCKET"
 		}
-	]
+	],
+	"vars": {
+		"NEXT_PUBLIC_UMAMI_ID": "467371a4-13c6-4342-a33b-83102ce2f85e",
+		"NEXT_PUBLIC_UMAMI_DOMAINS": "smarteg.app"
+	}
 }
