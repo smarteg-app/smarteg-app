@@ -215,7 +215,7 @@ function getAuthHeaders(): HeadersInit {
 }
 
 export async function getDailySales(): Promise<DailySalesResponse> {
-  const response = await fetch('https://api.smarteg.app/service/sales/daily', {
+  const response = await fetch(getApiUrl(API_CONFIG.ENDPOINTS.SALES_DAILY), {
     headers: getAuthHeaders()
   });
   if (!response.ok) {
@@ -225,7 +225,7 @@ export async function getDailySales(): Promise<DailySalesResponse> {
 }
 
 export async function getWeeklySales(): Promise<WeeklySalesResponse> {
-  const response = await fetch('https://api.smarteg.app/service/sales/weekly', {
+  const response = await fetch(getApiUrl(API_CONFIG.ENDPOINTS.SALES_WEEKLY), {
     headers: getAuthHeaders()
   });
   if (!response.ok) {
@@ -235,7 +235,7 @@ export async function getWeeklySales(): Promise<WeeklySalesResponse> {
 }
 
 export async function getMonthlySales(): Promise<MonthlySalesResponse> {
-  const response = await fetch('https://api.smarteg.app/service/sales/monthly', {
+  const response = await fetch(getApiUrl(API_CONFIG.ENDPOINTS.SALES_MONTHLY), {
     headers: getAuthHeaders()
   });
   if (!response.ok) {

@@ -1,8 +1,8 @@
 // API Configuration
 export const API_CONFIG = {
   // Base URLs
-  BASE_URL: process.env.NEXT_PUBLIC_API_URL || 'https://api.smarteg.app',
-  API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.smarteg.app',
+  BASE_URL: process.env.NEXT_PUBLIC_API_HOST ? `https://${process.env.NEXT_PUBLIC_API_HOST}` : 'https://smarteg-api.faizath.com',
+  API_BASE_URL: process.env.NEXT_PUBLIC_API_HOST ? `https://${process.env.NEXT_PUBLIC_API_HOST}` : 'https://smarteg-api.faizath.com',
   APP_URL: process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
   
   // Endpoints
