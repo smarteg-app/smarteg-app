@@ -6,10 +6,12 @@ import TestimonialsSection from '@/components/landing/TestimonialsSection'
 import FAQSection from '@/components/landing/FAQSection'
 import CTASection from '@/components/landing/CTASection'
 import Footer from '@/components/common/Footer'
+import AnnouncementPopup from '@/components/landing/AnnouncementPopup'
 
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <AnnouncementPopup />
       <Header />
       <main>
         <HeroSection />
