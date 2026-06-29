@@ -78,10 +78,25 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.5.19",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.10",
     "tailwindcss": "^3.4.17",
     "typescript": "^5",
     "wrangler": "^4.42.1"
   },
-  "packageManager": "pnpm@11.9.0+sha512.bd682d5d03fe525ef7c9fd6780c6884d1e756ac4c9c9fe00c538782824310dcf90e3ddc4f53835f06dfaebd5085e41855e0bcbb3b60de2ac5bbab89e5036f03b"
+  "overrides": {
+    "postcss": "^8.5.10",
+    "glob": "^10.5.0",
+    "serialize-javascript": "^7.0.5",
+    "flatted": "^3.4.2",
+    "lodash": "^4.17.24",
+    "js-yaml": "^4.1.2",
+    "yaml": "^2.8.3",
+    "fast-uri": "^3.1.2",
+    "ws": "^8.21.0",
+    "uuid": "^11.1.1",
+    "ajv": "^6.14.0",
+    "rollup": "^2.80.0",
+    "@babel/core": "^7.29.1",
+    "@babel/plugin-transform-modules-systemjs": "^7.29.4"
+  }
 }
