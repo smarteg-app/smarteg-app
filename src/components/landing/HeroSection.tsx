@@ -148,14 +148,14 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <div className="w-full max-w-none px-2">
-            <video
-              autoPlay
-              loop
-              playsInline
-              className="w-full rounded-t-lg shadow-2xl"
-            >
-              <source src="https://cdn.smarteg.app/video.mp4" type="video/mp4" />
-            </video>
+            <div className="aspect-video w-full rounded-t-lg shadow-2xl overflow-hidden">
+              <iframe
+                src="https://drive.google.com/file/d/15XChAV1Tqv4pCD3POv_ymJmBrDBZnaBT/preview"
+                className="w-full h-full"
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+                frameBorder="0"
+              />
+            </div>
           </div>
         </motion.div>
       </div>
